@@ -1,0 +1,41 @@
+#caixa {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    animation: normal mudarcor 5s ease-in-out forwards;
+
+
+
+}
+
+@keyframes mudarcor {
+    from {
+        background-color: brown;
+    }
+
+    to {
+        background-color: blue;
+        border-radius: 100%;
+    }
+}
+
+#caixa1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation: infinite girar 5s ease-in-out forwards;
+}
+
+@keyframes girar {
+    from {
+
+        transform: rotate(0);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+
+}
